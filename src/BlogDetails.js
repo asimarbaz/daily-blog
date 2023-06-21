@@ -25,7 +25,7 @@ const BlogDetails = () => {
                 <article>
                     <h2>{ blog.title }</h2>
                     <p>Written by - { blog.author }</p>
-                    <div>{ blog.body }</div>
+                    <div style={{textAlign:"justify"}}>{ blog.body }</div>
                     <button onClick={handleClick}>delete blog</button>
                 </article>
             )}
